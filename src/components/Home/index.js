@@ -5,7 +5,7 @@ import { useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 
 const Home = () => {
-    const [letterClass, setLetterClass] = useState('text-animate');
+    const [letterClass] = useState('text-animate');
     const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n'];
     const jobArray = ['F', 'r', 'o', 'n', 't', 'e', 'n', 'd', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
 
