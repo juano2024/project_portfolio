@@ -45,6 +45,36 @@
             opacity: 0;
             height: auto;
             animation: rotateIn 1s linear both;
+            animation-delay: 1.4s; 
+        }
+    }
+    h2 {
+        color: #ffffff; /*Cambiar color*/
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 11px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.0s backwards;
+    }
+
+    .flat-button {
+        color: #ffff; /*Cambiar color*/
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 3px solid #ffff; /*Cambiar color*/
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.0s backwards;
+        white-space: nowrap;
+
+        &:hover {
+            background: #ffff; /*Cambiar color*/
+            color: #3333;
         }
     }
 }
